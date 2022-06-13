@@ -24,7 +24,7 @@ Wiki_Recent_Changes
   
 ReadRandomFromWikiChange
 
- http://localhost:8081/random = you can visit random pages that were recently updated and it will store the links you visited.(This will ask random links from
- Wiki_Recent_Changes through REST API)
+ http://localhost:8081/random = you can visit random pages that were recently updated (This will ask random links from Wiki_Recent_Changes through REST API) and 
+ it will store the links you visited.
  
  http://localhost:8081/read = you can see the links you have visited and you can revisit again if you care.
