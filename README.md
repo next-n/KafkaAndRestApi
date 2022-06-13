@@ -10,9 +10,9 @@ QuickStart Guide
 3.      recent_changes is for getting live from wiki rest api and store links into this
 4.      read_changed is for links you have read(you will have to request random articles which is recently updated.
 5. run three microservices
-6.    1.Eureka_Server - this is eureka server and it stores instances of other microservices
-7.    2.Wiki_Recent_Changes - this one is getting live data from wiki live api and stores links to database(recent_changes)
-8.    3.ReadRandomFromWikiChange - this one is getting random webpage that is was recently updated. She asked wiki_recent_changes through rest api and getting random links
+6.      Eureka_Server - this is eureka server and it stores instances of other microservices
+7.      Wiki_Recent_Changes - this one is getting live data from wiki live api and stores links to database(recent_changes)
+8.      ReadRandomFromWikiChange - this one is getting random webpage that is was recently updated. She asked wiki_recent_changes through rest api and getting random links
 
 Eureka Server
   
