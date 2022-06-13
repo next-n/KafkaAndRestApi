@@ -1,7 +1,7 @@
 This application is based on microservice architecture and restful api to store all links about wiki recent updates and then you can view random wiki pages
 that are recently updated.
 And they will store your visited link into a database and you can go see which ones you visited.
-I used technologies such as spring boot, spring data jpa, kafka, eureka and docker. The whole application is all about backend technologies. There is no view or frontend framework. 
+I used technologies such as spring boot, spring data jpa, kafka, eureka. The whole application is all about backend technologies. There is no view or frontend framework. 
 
 
 QuickStart Guide
