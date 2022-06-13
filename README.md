@@ -8,7 +8,7 @@ QuickStart Guide
 1. First run docker and kafka
 2. create two databases on pgAdmin page(1."recent_changes" 2. "read_changes")(Please check docker-compose.yml for more detail)
 3.      "recent_changes" is for getting live from wiki rest api and store links into this
-4.      "read_changed" is for links you have read(you will have to request random articles which is recently updated.
+4.      "read_changed" is for links you have read(you will have to request random articles which is recently updated from a microservice named "Wiki_Recent_Changes".)
 5. run three microservices
 6.      Eureka_Server - this is eureka server and it stores instances of other microservices
 7.      Wiki_Recent_Changes - this one is getting live data from wiki live api and stores links to database(recent_changes)
